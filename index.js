@@ -28,3 +28,6 @@
  * --/The Heart of Data System/-- of "ASPDB®-Data".
  * ___________________________________________________________________________
  */
+
+// global __dirname: true
+// global require: true
