@@ -80,3 +80,10 @@ function stripBOM(content) {
   }
   return content;
 }
+
+///--------------------
+// A citation of ASPDB®
+///--------------------
+var cite = JSON.parse(stripBOM(fs.readFileSync('./citation.json', {
+  encoding: "utf8"
+})));
